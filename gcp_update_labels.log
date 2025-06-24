@@ -1,0 +1,79 @@
+2019-05-06 11:34:44,087 Reading the Config File
+2019-05-06 11:35:21,198 Reading the Config File
+2019-05-06 11:35:21,228 Refreshing access_token
+2019-05-06 11:35:22,932 Running Validation on Input Label File
+2019-05-06 11:35:22,970 Refreshing access_token
+2019-05-06 11:35:24,567 
+Completed validating 13 lines in input label file.
+2019-05-06 11:35:24,568 Completed Validation on Input Label File
+2019-05-06 11:35:24,568 Running Label Updates
+2019-05-06 11:35:24,568 Resource type dict is {"project": {"cardinal-data-piper-sbx|cardinal-data-piper-sbx|": {"resource_id": "cardinal-data-piper-sbx", "project_id": "cardinal-data-piper-sbx", "zone": "", "tags": {"org": "data-engg", "manager": "martina", "env": "dev", "size": "8"}}}, "compute engine": {"cardinal-data-piper-sbx|5760604619992189475|us-west2-a": {"resource_id": "5760604619992189475", "project_id": "cardinal-data-piper-sbx", "zone": "us-west2-a", "tags": {"org": "data-engg", "env": "dev"}}}, "storage": {"cardinal-data-piper-sbx|data-piper1|": {"resource_id": "data-piper1", "project_id": "cardinal-data-piper-sbx", "zone": "", "tags": {"org": "data-engg", "env": "dev"}}}, "bigquery": {"cardinal-data-piper-sbx|public|": {"resource_id": "public", "project_id": "cardinal-data-piper-sbx", "zone": "", "tags": {"org": "data-engg", "env": "dev"}}}, "bigtable": {"cardinal-data-piper-sbx|data-piper1|": {"resource_id": "data-piper1", "project_id": "cardinal-data-piper-sbx", "zone": "", "tags": {"org": "data-engg", "env": "staging"}}}}
+2019-05-06 11:35:24,569 {"cardinal-data-piper-sbx|cardinal-data-piper-sbx|": {"resource_id": "cardinal-data-piper-sbx", "project_id": "cardinal-data-piper-sbx", "zone": "", "tags": {"org": "data-engg", "manager": "martina", "env": "dev", "size": "8"}}}
+2019-05-06 11:35:24,569 Getting Project Detail and Updating
+2019-05-06 11:35:24,590 URL being requested: GET https://www.googleapis.com/discovery/v1/apis/cloudresourcemanager/v1/rest
+2019-05-06 11:35:24,591 Attempting refresh to obtain initial access_token
+2019-05-06 11:35:24,622 Refreshing access_token
+2019-05-06 11:35:24,988 URL being requested: GET https://cloudresourcemanager.googleapis.com/v1/projects/cardinal-data-piper-sbx?alt=json
+2019-05-06 11:35:25,276 Project is found
+2019-05-06 11:35:25,276 Updating Project
+2019-05-06 11:35:25,282 URL being requested: PUT https://cloudresourcemanager.googleapis.com/v1/projects/cardinal-data-piper-sbx?alt=json
+2019-05-06 11:35:25,787 Project Updated Successfully
+2019-05-06 11:35:25,788 {"cardinal-data-piper-sbx|5760604619992189475|us-west2-a": {"resource_id": "5760604619992189475", "project_id": "cardinal-data-piper-sbx", "zone": "us-west2-a", "tags": {"org": "data-engg", "env": "dev"}}}
+2019-05-06 11:35:25,788 Updating Instances Labels
+2019-05-06 11:35:25,796 URL being requested: GET https://www.googleapis.com/discovery/v1/apis/compute/v1/rest
+2019-05-06 11:35:25,796 Attempting refresh to obtain initial access_token
+2019-05-06 11:35:25,830 Refreshing access_token
+2019-05-06 11:35:26,081 URL being requested: GET https://www.googleapis.com/compute/v1/projects/cardinal-data-piper-sbx/zones/us-west2-a/instances/5760604619992189475?alt=json
+2019-05-06 11:35:26,403 Instance before update
+2019-05-06 11:35:26,416 URL being requested: POST https://www.googleapis.com/compute/v1/projects/cardinal-data-piper-sbx/zones/us-west2-a/instances/5760604619992189475/setLabels?alt=json
+2019-05-06 11:35:27,428 Compute engine updated successfully
+2019-05-06 11:35:27,428 Compute Engine Labels Updated Successfully
+2019-05-06 11:35:27,428 {"cardinal-data-piper-sbx|data-piper1|": {"resource_id": "data-piper1", "project_id": "cardinal-data-piper-sbx", "zone": "", "tags": {"org": "data-engg", "env": "dev"}}}
+2019-05-06 11:35:27,428 Getting Bucket labels
+2019-05-06 11:35:28,039 Storage Labels Updated Successfully
+2019-05-06 11:35:28,040 {"cardinal-data-piper-sbx|public|": {"resource_id": "public", "project_id": "cardinal-data-piper-sbx", "zone": "", "tags": {"org": "data-engg", "env": "dev"}}}
+2019-05-06 11:35:28,040 Updating BigQuery Labels
+2019-05-06 11:35:29,269 Bigquery Labels Updated Successfully
+2019-05-06 11:35:29,269 {"cardinal-data-piper-sbx|data-piper1|": {"resource_id": "data-piper1", "project_id": "cardinal-data-piper-sbx", "zone": "", "tags": {"org": "data-engg", "env": "staging"}}}
+2019-05-06 11:35:29,270 Updating Bigtable Labels
+2019-05-06 11:35:30,808 Bigtable Labels Updated Successfully
+2019-05-06 11:35:30,808 All resources updated successfully
+2019-05-06 11:36:45,221 Reading the Config File
+2019-05-06 11:36:45,260 Refreshing access_token
+2019-05-06 11:36:47,309 Running Validation on Input Label File
+2019-05-06 11:36:47,344 Refreshing access_token
+2019-05-06 11:36:49,047 
+Completed validating 13 lines in input label file.
+2019-05-06 11:36:49,048 Completed Validation on Input Label File
+2019-05-06 11:36:49,048 Running Label Updates
+2019-05-06 11:36:49,049 Resource type dict is {"project": {"cardinal-data-piper-sbx|cardinal-data-piper-sbx|": {"resource_id": "cardinal-data-piper-sbx", "project_id": "cardinal-data-piper-sbx", "zone": "", "tags": {"org": "data-engg", "manager": "martina", "env": "dev", "size": "8"}}}, "compute engine": {"cardinal-data-piper-sbx|5760604619992189475|us-west2-a": {"resource_id": "5760604619992189475", "project_id": "cardinal-data-piper-sbx", "zone": "us-west2-a", "tags": {"org": "data-engg", "env": "dev"}}}, "storage": {"cardinal-data-piper-sbx|data-piper1|": {"resource_id": "data-piper1", "project_id": "cardinal-data-piper-sbx", "zone": "", "tags": {"org": "data-engg", "env": "dev"}}}, "bigquery": {"cardinal-data-piper-sbx|public|": {"resource_id": "public", "project_id": "cardinal-data-piper-sbx", "zone": "", "tags": {"org": "data-engg", "env": "dev"}}}, "bigtable": {"cardinal-data-piper-sbx|data-piper1|": {"resource_id": "data-piper1", "project_id": "cardinal-data-piper-sbx", "zone": "", "tags": {"org": "data-engg", "env": "staging"}}}}
+2019-05-06 11:36:49,049 {"cardinal-data-piper-sbx|cardinal-data-piper-sbx|": {"resource_id": "cardinal-data-piper-sbx", "project_id": "cardinal-data-piper-sbx", "zone": "", "tags": {"org": "data-engg", "manager": "martina", "env": "dev", "size": "8"}}}
+2019-05-06 11:36:49,049 Getting Project Detail and Updating
+2019-05-06 11:36:49,062 URL being requested: GET https://www.googleapis.com/discovery/v1/apis/cloudresourcemanager/v1/rest
+2019-05-06 11:36:49,062 Attempting refresh to obtain initial access_token
+2019-05-06 11:36:49,095 Refreshing access_token
+2019-05-06 11:36:49,330 URL being requested: GET https://cloudresourcemanager.googleapis.com/v1/projects/cardinal-data-piper-sbx?alt=json
+2019-05-06 11:36:49,919 Project is found
+2019-05-06 11:36:49,919 Updating Project
+2019-05-06 11:36:49,925 URL being requested: PUT https://cloudresourcemanager.googleapis.com/v1/projects/cardinal-data-piper-sbx?alt=json
+2019-05-06 11:36:50,473 Project Updated Successfully
+2019-05-06 11:36:50,473 {"cardinal-data-piper-sbx|5760604619992189475|us-west2-a": {"resource_id": "5760604619992189475", "project_id": "cardinal-data-piper-sbx", "zone": "us-west2-a", "tags": {"org": "data-engg", "env": "dev"}}}
+2019-05-06 11:36:50,473 Updating Instances Labels
+2019-05-06 11:36:50,476 URL being requested: GET https://www.googleapis.com/discovery/v1/apis/compute/v1/rest
+2019-05-06 11:36:50,477 Attempting refresh to obtain initial access_token
+2019-05-06 11:36:50,508 Refreshing access_token
+2019-05-06 11:36:50,736 URL being requested: GET https://www.googleapis.com/compute/v1/projects/cardinal-data-piper-sbx/zones/us-west2-a/instances/5760604619992189475?alt=json
+2019-05-06 11:36:50,986 Instance before update
+2019-05-06 11:36:50,996 URL being requested: POST https://www.googleapis.com/compute/v1/projects/cardinal-data-piper-sbx/zones/us-west2-a/instances/5760604619992189475/setLabels?alt=json
+2019-05-06 11:36:51,809 Compute engine updated successfully
+2019-05-06 11:36:51,809 Compute Engine Labels Updated Successfully
+2019-05-06 11:36:51,810 {"cardinal-data-piper-sbx|data-piper1|": {"resource_id": "data-piper1", "project_id": "cardinal-data-piper-sbx", "zone": "", "tags": {"org": "data-engg", "env": "dev"}}}
+2019-05-06 11:36:51,810 Getting Bucket labels
+2019-05-06 11:36:52,315 Storage Labels Updated Successfully
+2019-05-06 11:36:52,315 {"cardinal-data-piper-sbx|public|": {"resource_id": "public", "project_id": "cardinal-data-piper-sbx", "zone": "", "tags": {"org": "data-engg", "env": "dev"}}}
+2019-05-06 11:36:52,316 Updating BigQuery Labels
+2019-05-06 11:36:53,339 Bigquery Labels Updated Successfully
+2019-05-06 11:36:53,339 {"cardinal-data-piper-sbx|data-piper1|": {"resource_id": "data-piper1", "project_id": "cardinal-data-piper-sbx", "zone": "", "tags": {"org": "data-engg", "env": "staging"}}}
+2019-05-06 11:36:53,339 Updating Bigtable Labels
+2019-05-06 11:36:54,274 Bigtable Labels Updated Successfully
+2019-05-06 11:36:54,274 All resources updated successfully
